@@ -20,3 +20,12 @@ section[id]{scroll-margin-top:118px}
 .main-nav a,.nav-cta{min-height:56px;font-size:8.5px}
 .main-nav .nav-icon,.nav-cta .nav-icon{width:22px!important;height:22px!important}
 }
+
+
+/* Keep all five mobile header actions on one row */
+@media (width<=720px){
+.nav-wrap{align-items:stretch}
+.nav-wrap .brand{grid-row:1}
+.nav-wrap .main-nav{order:0;grid-row:2;align-self:stretch}
+.nav-wrap .nav-cta{grid-row:2;align-self:stretch}
+}
