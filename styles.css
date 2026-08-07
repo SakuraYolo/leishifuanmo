@@ -29,3 +29,10 @@ section[id]{scroll-margin-top:118px}
 .nav-wrap .main-nav{order:0;grid-row:2;align-self:stretch}
 .nav-wrap .nav-cta{grid-row:2;align-self:stretch}
 }
+
+
+/* Align mobile anchor targets directly below the sticky header */
+@media (width<=720px){
+html{scroll-padding-top:48px}
+section[id]{scroll-margin-top:0}
+}
